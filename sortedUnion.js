@@ -11,3 +11,5 @@ function unite(arr1, arr2, arr3) {
 }
 
 unite([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+//This solution is working only on modern browser that support Array.includes()
+// You can replace it with Array.indexOf()
