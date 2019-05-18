@@ -1,7 +1,7 @@
 function binaryAgent(str) {
   var arr = str.split(" ");
   var newArr = [];
-  arr.map(function(val) {
+  arr.forEach(function(val) {
     newArr[newArr.length] = transform(val);
   });
   return newArr.join("");
